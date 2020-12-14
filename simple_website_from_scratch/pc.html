@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Michael A Garcin | Simple Website from Scratch</title>
+    <meta name="description" content="This is my simple website from scratch, created as my final project for Writing on the Web Fall 2020.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Simple Website from Scratch">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/lowres.jpg">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="assets/img/personal_logo.png">
+    <!-- Place favicon.ico in the root directory -->
+	<link rel="icon" type="image/ico" href="favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+    <!-- Add your site or application content here -->
+	<header class="primary">
+		<img src="assets/img/personal_logo.png" alt="Michael's personal logo">
+		<h1>Michael A Garcin</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="reflection.html">Semester Reflection</a></li>
+				<li><a href="pc.html">PC Builds</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container" id="content">
+		<h2>My Custom PC Build</h2>
+		<section>
+			<p>Here we will be discussing my personal pc build that I did last year. This has been my main system for my web development and graphic design work, as well as the gaming that I do occasionally. It has not skipped a beat and has tons of upgradability that I plan on taking advantage of in the near future.</p>
+			<p>To watch the tutorials that I used when building my pc, check out <a href="https://www.youtube.com/channel/UCvWWf-LYjaujE50iYai8WgQ" target="_blank">Paul's Hardware</a> on YouTube.</p>
+		</section>
+		<section>
+			<h3>Picking Your Parts</h3>
+			<img src="assets/img/pc_parts.jpg" alt="the main parts for my pc">
+			<p>I chose to build a Ryzen system since I would mostly be using the PC for productivity and the higher core and thread count helps with multi-tasking. Here is a full parts list for my build:</p>
+			<ul>
+				<li>Case: NZXT H510</li>
+				<li>Motherboard: MSI B450 Tomahawk</li>
+				<li>CPU: Ryzen 5 2600 (stock cooler)</li>
+				<li>GPU: Radeon RX560</li>
+				<li>RAM: 16GB Corsair Vengeance LPX 3600mHZ</li>
+				<li>Boot Drive: 250GB Samsung 970EVO</li>
+				<li>Storage: 1TB Seagate Barracude HDD</li>
+				<li>PSU: EVGA 500W</li>
+				<li>Cooling: (1) Thermaltake Riing 12, (3) Thermaltake Riing 14</li>
+			</ul>
+			<h3>Assemble the Main Components</h3>
+			<p>For the next step I assembled everything outside of the case. I started by installing my CPU into the socket, being sure to line up the triangle on the CPU with the triangle on the socket so that it seats properly. I then installed my boot drive into the m.2 slot just below the CPU, and installed the RAM into furthest slot from the CPU and the second closest slot to the CPU. RAM is installed this way so that you can take full advantage of its speed allowing the motherboard to run in "dual-chanel" mode, meaning it can access both sticks at the same time.</p>
+			<img src="assets/img/cpu_in.jpg" alt="motherboard with the cpu, ram, and m.2 drive installed">
+			<p>Next, before putting anything in the case I installed the stock cooler for the CPU. It comes with mounting hardware pre-installed and the screws are spring loaded so that it is impossible to overtighten and damage the CPU.</p>
+			<img src="assets/img/cooler_on.jpg" alt="cooler installed on the CPU">
+			<h3>Install in the Case</h3>
+			<p>The next step I did not document with pictures but you need to install the power supply into the case. I pre-routed all of my cables to where they needed to be also, this helps with plugging everything in once the motherboard is installed. I placed the motherboard in the case on the standoffs and screwed it into place. I then plugged in all of my front panel connectors, the 24-pin power connecter on the right side, the 8-pin CPU power cable at the top, as well as the additional SATA cable for my 1TB HDD. I then installed the GPU with it's 6-pin power cable, as well as a PCI-e wifi card since my apartment does not have any ethernet ports.</p>
+			<img src="assets/img/installed.jpg" alt="an image of all the components installed in my PC case">
+			<h3>New Fans</h3>
+			<p>A little later down the line I wanted to increase the cooling of my PC so that I could overclock my CPU and get even more power out of it. I did this by adding 2 140mm fans in the front as intake, installing a better 120mm fan as exhaust, and also an additional 140mm fan at the top for exhaust. I also put some Destiny Funko Pops in the case for some added flair since I have the tempered glass side panel.</p>
+			<img src="assets/img/new_fans.jpg">
+			<p>I am extremely happy with the way my build turned out, and I am definitely itching to either start upgrading or build again.</p>
+		</section>
+	</main>
+	<footer id="colophon" class="container">
+    	<h6 id="copyright">
+      		&copy; 2020 Michael A. Garcin. All rights reserved.
+    	</h6>
+	</footer>
+    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
